@@ -9,8 +9,11 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxt/content": "^1.14.0",
+    "@nuxtjs/content": "^0.3.0",
     "@nuxtjs/sanity": "^0.9.0",
     "core-js": "^3.9.1",
+    "date-fns": "^2.21.1",
     "nuxt": "^2.15.3"
   },
   "devDependencies": {

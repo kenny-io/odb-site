@@ -20,12 +20,6 @@ export default {
     Chart
     // Nav
   },
-  async asyncData() {
-    const mountains = await fetch(
-      "https://api.nuxtjs.dev/mountains"
-    ).then(res => res.json());
-
-    return { mountains };
-  }
+  async asyncData() {}
 };
 </script>
