@@ -211,7 +211,6 @@
 import { groq } from "@nuxtjs/sanity";
 export default {
   async asyncData({ params, $sanity }) {
-    console.log(params);
     const query = groq`
       *[_type == "product" && slug.current == "${params.slug}" ][0]{
         title,
@@ -221,7 +220,6 @@ export default {
         "imageUrl": defaultProductVariant.images[0].asset->url,
         "blurb": blurb.en
       }`;
-    console.log("query formed");
     const product = await $sanity.fetch(query);
     return { product };
   }
