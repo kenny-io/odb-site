@@ -63,6 +63,3 @@ export default {
   }
 };
 </script>
-<div v-for="doc in docs" :key="doc.title">
-        <nuxt-link :to="`/docs/${doc.slug}`">{{ doc.title }} </nuxt-link>
-      </div>
