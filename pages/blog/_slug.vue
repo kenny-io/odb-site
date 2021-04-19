@@ -14,6 +14,7 @@
 export default {
   async asyncData({ $content, params }) {
     const post = await $content("blog", params.slug).fetch();
+    console.log(params);
     return { post };
   }
 };
