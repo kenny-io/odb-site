@@ -58,7 +58,6 @@ export default {
   async asyncData(context) {
     const { $content } = context;
     const docs = await $content("docs").fetch();
-    console.log(docs);
     return { docs };
   }
 };

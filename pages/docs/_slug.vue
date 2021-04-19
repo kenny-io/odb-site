@@ -7,7 +7,7 @@
         On this page
       </h1>
       <p
-        v-for="header in post.toc"
+        v-for="header in doc.toc"
         :key="header.id"
         class="leading-relaxed text-base"
       >
@@ -15,7 +15,7 @@
       </p>
     </div>
     <div class="col-span-2">
-      <nuxt-content :document="post"></nuxt-content>
+      <nuxt-content :document="doc"></nuxt-content>
     </div>
   </div>
 </template>
@@ -23,8 +23,8 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const post = await $content("docs", params.slug).fetch();
-    return { post };
+    const doc = await $content("docs", params.slug).fetch();
+    return { doc };
   }
 };
 </script>

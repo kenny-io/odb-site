@@ -1,25 +1,21 @@
 <template>
   <div>
-    <!-- <Nav /> -->
     <Header />
     <Testimonials />
-    <Chart />
+    <Features />
   </div>
 </template>
 
 <script>
-// import Nav from "../components/Nav";
 import Header from "../components/Header";
 import Testimonials from "../components/Testimonials";
-import Chart from "../components/Chart";
+import Features from "../components/Features";
 
 export default {
   components: {
     Header,
     Testimonials,
-    Chart
-    // Nav
-  },
-  async asyncData() {}
+    Features
+  }
 };
 </script>

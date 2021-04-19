@@ -14,7 +14,10 @@
       >
         <div class="max-w-md mx-auto">
           <div>
-            <img src="/img/logo.svg" class="h-7 sm:h-8" />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvcScFQoVMwuFx_3cSqJ_l5QC1FE9EpkLo6g&usqp=CAU"
+              class="h-7 sm:h-8"
+            />
           </div>
           <div class="divide-y divide-gray-200">
             <div

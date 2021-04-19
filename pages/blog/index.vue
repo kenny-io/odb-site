@@ -51,7 +51,7 @@ export default {
   async asyncData(context) {
     const { $content } = context;
     const posts = await $content("blog").fetch();
-    // console.log();
+
     return { posts };
   },
   filters: {

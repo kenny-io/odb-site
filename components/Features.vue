@@ -5,7 +5,7 @@
         <h1
           class="sm:text-3xl text-2xl font-medium title-font text-gray-900 mb-4"
         >
-          Raw Denim Heirloom Man Braid
+          How to get the best out of Hedges
         </h1>
         <p
           class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto text-gray-500s"
@@ -39,7 +39,7 @@
           </div>
           <div class="flex-grow">
             <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
-              Shooting Stars
+              Automatic Hot Module Replacement
             </h2>
             <p class="leading-relaxed text-base">
               Blue bottle crucifix vinyl post-ironic four dollar toast vegan
@@ -84,7 +84,7 @@
           </div>
           <div class="flex-grow">
             <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
-              The Catalyzer
+              Code Splitting
             </h2>
             <p class="leading-relaxed text-base">
               Blue bottle crucifix vinyl post-ironic four dollar toast vegan
@@ -126,7 +126,7 @@
           </div>
           <div class="flex-grow">
             <h2 class="text-gray-900 text-lg title-font font-medium mb-3">
-              Neptune
+              Code completion with instant preview
             </h2>
             <p class="leading-relaxed text-base">
               Blue bottle crucifix vinyl post-ironic four dollar toast vegan
