@@ -25,7 +25,10 @@
             <div class="px-6 pt-4 pb-2">
               <span
                 class="inline-block bg-green-900 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
-                ><nuxt-link :to="product.slug.current" class="text-white">
+                ><nuxt-link
+                  :to="`/shop/${product.slug.current}`"
+                  class="text-white"
+                >
                   View Product</nuxt-link
                 ></span
               >
