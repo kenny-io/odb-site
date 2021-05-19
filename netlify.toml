@@ -13,3 +13,13 @@
   from = "/blog/*"
   to = "/.netlify/functions/fetch-routes/:splat"
   status = 200
+
+  [[redirects]]
+  from = "/docs/*"
+  to = "/.netlify/functions/fetch-routes/:splat"
+  status = 200
+
+  [[redirects]]
+  from = "/shop/*"
+  to = "/.netlify/functions/fetch-routes/:splat"
+  status = 200

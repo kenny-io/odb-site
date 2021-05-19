@@ -1,5 +1,7 @@
 const { builder } = require("@netlify/functions");
 
+const blogDynamicPage = require("../../layouts/blog-view");
+
 const handler = async (event, context) => {
   console.log(context);
   // function to generate all blog posts
@@ -11,7 +13,7 @@ const handler = async (event, context) => {
   console.log(params);
   return {
     statusCode: 200,
-    body: JSON.stringify(post)
+    body: blogDynamicPage(post)
   };
 };
 
