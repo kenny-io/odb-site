@@ -1,6 +1,7 @@
 const { builder } = require("@netlify/functions");
 
 const handler = async (event, context) => {
+  console.log(context);
   // function to generate all blog posts
   const path = await event.body.path.split("blog/")[1];
   console.log(path);
