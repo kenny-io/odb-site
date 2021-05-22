@@ -1,0 +1,25 @@
+[build] 
+  publish = "dist"
+  command = ""
+
+[dev] 
+  publish = "dist"
+  command = ""
+
+[functions]
+  node_bundler = "esbuild"
+
+[[redirects]]
+  from = "/blog/*"
+  to = "/.netlify/functions/fetch-routes/:splat"
+  status = 200
+
+  [[redirects]]
+  from = "/docs/*"
+  to = "/.netlify/functions/fetch-routes/:splat"
+  status = 200
+
+  [[redirects]]
+  from = "/shop/*"
+  to = "/.netlify/functions/fetch-routes/:splat"
+  status = 200
